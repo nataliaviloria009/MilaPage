@@ -1,7 +1,8 @@
-h1 {
+.name {
     font-family: 'Playfair Display SC', serif;
     text-align: center;
-    font-size: 100px;
+    font-size: 120px;
+    color:#2D033B; 
     
 }
 
@@ -10,8 +11,34 @@ p {
     text-align: center;
 }
 
-.icon {
-
-    color: blueviolet;
-
+.mila {
+    border-radius: 10px;
+    opacity: 10; /* Adjust the opacity value to your liking */
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the color and opacity values to your liking */
+    mix-blend-mode: multiply; /* Adjust the blend mode to your liking */
+    max-width: 100%;
+    height: auto;
 }
+
+
+body {
+    background-color:white;
+    
+}
+
+.logo {
+    width: 100%; /* Adjust the size of the logo image */
+    height: auto;
+    border-radius: 10px;
+    opacity: 10;
+    background-color: rgba(255, 255, 255, 0.2);
+    mix-blend-mode: multiply;
+    padding-right: 40px;
+}
+
+
+.name-container {
+    position: relative;
+  }
+  
+  
