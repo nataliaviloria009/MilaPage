@@ -2,7 +2,7 @@
     font-family: 'Playfair Display SC', serif;
     text-align: center;
     font-size: 120px;
-    color:#2D033B; 
+    color: #77037B; 
     
 }
 
@@ -16,29 +16,70 @@ p {
     opacity: 10; /* Adjust the opacity value to your liking */
     background-color: rgba(255, 255, 255, 0.2); /* Adjust the color and opacity values to your liking */
     mix-blend-mode: multiply; /* Adjust the blend mode to your liking */
-    max-width: 100%;
-    height: auto;
-}
-
-
-body {
-    background-color:white;
+  
+  
+    
     
 }
 
-.logo {
-    width: 100%; /* Adjust the size of the logo image */
-    height: auto;
-    border-radius: 10px;
-    opacity: 10;
-    background-color: rgba(255, 255, 255, 0.2);
-    mix-blend-mode: multiply;
-    padding-right: 40px;
-}
 
 
 .name-container {
     position: relative;
   }
   
+  .navbar-brand {
+    font-family: 'Playfair Display SC', serif;
+    font-size: large;
+}
+
+.mila-video {
+
+    border-radius: 10px;
+    opacity: 10; /* Adjust the opacity value to your liking */
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the color and opacity values to your liking */
+    mix-blend-mode: multiply; /* Adjust the blend mode to your liking */
+    max-width: 100%;
+    height: auto;
+
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.row-icons {
+    display: flex;
+    justify-content: right;
+    font-size: 40px; /* Increase the font size */
+    color: blueviolet;
+    
+    
+  }
   
+
+ 
+.main-images{
+    justify-content: center;
+    justify-self: start;
+    border-radius: 20px;
+    opacity: 10; /* Adjust the opacity value to your liking */
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the color and opacity values to your liking */
+    mix-blend-mode: multiply; /* Adjust the blend mode to your liking */
+  
+}
+
+.container {
+    justify-content: center;
+    border-radius: 20px;
+}
+
+
+
+
+
+.main {
+    max-width: 100%;
+    height: auto;
+}
