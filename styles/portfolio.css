@@ -1,3 +1,7 @@
+
+
+
+
 .name {
     font-family: 'Playfair Display SC', serif;
     text-align: center;
@@ -87,17 +91,13 @@ p {
 
 
 .main {
-    max-width: 100%;
+    width: 100%;
+    max-width: 1000px;
     height: auto;
-    padding-bottom: 5%;
-    max-width: 100%;
-    height: auto;
-  
-    
-     
-
-     
-}
+    display: block;
+  margin: 0 auto;
+   
+  }
 
 
 
@@ -165,4 +165,8 @@ p {
     text-decoration: none;
    
 
+}
+
+.sonrie {
+    padding-top: 40%;
 }
