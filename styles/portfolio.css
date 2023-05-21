@@ -71,7 +71,6 @@ p {
 .main-images{
     justify-content: center;
     justify-self: start;
-    border-radius: 20px;
     opacity: 10; /* Adjust the opacity value to your liking */
     background-color: rgba(255, 255, 255, 0.2); /* Adjust the color and opacity values to your liking */
     mix-blend-mode: multiply; /* Adjust the blend mode to your liking */
@@ -90,7 +89,6 @@ p {
 .main {
     max-width: 100%;
     height: auto;
-    border-radius: 10%;
     padding-bottom: 5%;
     max-width: 100%;
     height: auto;
@@ -101,9 +99,7 @@ p {
      
 }
 
-body {
-    background-color: #FDF4F5
-}
+
 
 .navbar-nav .nav-link {
     margin-right: 20px; /* Adjust the margin value to increase or decrease the spacing */
