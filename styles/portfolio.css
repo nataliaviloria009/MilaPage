@@ -156,8 +156,17 @@ body {
 
 
 .mila-image {
-    max-width: 390%;
+    max-width: 397%;
     height: auto;
     max-height: 800px; /* Adjust the value as needed */
     padding-top: 10%;
+}
+
+.back-home {
+
+    font-family: 'Playfair Display SC', serif;
+    font-size: 16px;
+    text-decoration: none;
+   
+
 }
