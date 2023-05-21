@@ -2,13 +2,18 @@
     font-family: 'Playfair Display SC', serif;
     text-align: center;
     font-size: 120px;
-    color: #77037B; 
+    
     
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display SC', serif;
     text-align: center;
+    font-weight: 100;
+    color: #5F264A;
+    padding-bottom: 0,8%;
+    padding-top: 0,5%;
+    font-size: 25px;
 }
 
 .mila {
@@ -31,6 +36,7 @@ p {
   .navbar-brand {
     font-family: 'Playfair Display SC', serif;
     font-size: large;
+   
 }
 
 .mila-video {
@@ -53,7 +59,9 @@ p {
     display: flex;
     justify-content: right;
     font-size: 40px; /* Increase the font size */
-    color: blueviolet;
+    color: #D4AF37;
+
+ 
     
     
   }
@@ -82,4 +90,40 @@ p {
 .main {
     max-width: 100%;
     height: auto;
+    border-radius: 10%;
+    padding-bottom: 5%;
+    max-width: 100%;
+    height: auto;
+  
+    
+     
+
+     
+}
+
+body {
+    background-color: #FDF4F5
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px; /* Adjust the margin value to increase or decrease the spacing */
+}
+
+
+.nav {
+    font-family: 'Playfair Display SC', serif;
+    justify-content: end;
+}
+
+
+
+
+.social i{
+    justify-content: center;
+    color: #D4AF37;
+
+}
+
+.video1 {
+    padding-bottom: 5%;
 }
