@@ -4,7 +4,7 @@
     font-family: 'Playfair Display SC', serif;
     text-align: center;
     font-size: 140px;
-    color: goldenrod;
+    color: goldenrod; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   
 
@@ -245,8 +245,12 @@ padding-top: 10%;
     margin-left: 9%;
     padding-top: 9%;
     justify-content: center; 
-    color: white;
+    color: goldenrod; 
     text-decoration: none;
   
 
+}
+
+.milita-contacto {
+  text-align: center;
 }
