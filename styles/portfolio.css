@@ -110,7 +110,8 @@ p {
 
 .nav {
     font-family: 'Playfair Display SC', serif;
-    justify-content: end;
+    justify-content: right; 
+
 }
 
 
