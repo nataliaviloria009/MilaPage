@@ -4,7 +4,7 @@
     font-family: 'Playfair Display SC', serif;
     text-align: center;
     font-size: 140px;
-    color: goldenrod; 
+    color: rgb(84, 7, 84); 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   
 
@@ -258,7 +258,7 @@ p {
     font-family: 'Playfair Display SC', serif;
     text-align: center;
     font-weight: 100;
-    color: #D4AF37; 
+    color: rgb(84, 7, 84); 
     padding-bottom: 0,8%;
     padding-top: 6%;
     font-size: 18px;
