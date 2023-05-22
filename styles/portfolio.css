@@ -1,11 +1,11 @@
 
 
-
-
 .name {
     font-family: 'Playfair Display SC', serif;
     text-align: center;
-    font-size: 130px;
+    font-size: 140px;
+    color: goldenrod;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   
 
     
@@ -16,9 +16,9 @@ p {
     font-family: 'Playfair Display SC', serif;
     text-align: center;
     font-weight: 100;
-    color: #5F264A;
+    color: #D4AF37; 
     padding-bottom: 0,8%;
-    padding-top: 0,5%;
+    padding-top: 6%;
     font-size: 25px;
 }
 
@@ -80,6 +80,7 @@ p {
     opacity: 10; /* Adjust the opacity value to your liking */
     background-color: rgba(255, 255, 255, 0.2); /* Adjust the color and opacity values to your liking */
     mix-blend-mode: multiply; /* Adjust the blend mode to your liking */
+    border-radius: 0,5%;
   
 }
 
@@ -93,11 +94,13 @@ p {
 
 
 .main {
-    width: 100%;
-    max-width: 900px;
-    height: auto;
-    display: block;
-  margin: 0 auto;
+width: 100%;
+max-width: 900px;
+height: auto;
+display: block;
+margin: 0 auto;
+border-radius: 0,5%;
+padding-top: 10%;
    
   }
 
@@ -131,11 +134,12 @@ p {
 
 
 .milita-bio {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     margin-left: 9%;
     padding-top: 9%;
     justify-content: left; 
+    color: white;
    
 
 }
@@ -145,6 +149,8 @@ p {
     font-family: 'Playfair Display SC', serif;
     text-align: center;
     font-size: 130px;
+    color: goldenrod;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   
 
     
@@ -165,13 +171,24 @@ p {
     font-family: 'Playfair Display SC', serif;
     font-size: 16px;
     text-decoration: none;
+    
    
 
 }
 
 .sonrie {
     padding-top: 40%;
-}
+  
+        max-width: 100%;
+        height: auto;
+        opacity: 0.8;
+      }
+      
+      .sonrie:hover {
+        opacity: 1;
+      }
+      
+
 
 
 .contacto-home {
@@ -180,6 +197,7 @@ p {
     font-family: 'Playfair Display SC', serif;
     font-size: 16px;
     text-decoration: none;
+    padding-bottom: 60%;
    
 }
 
@@ -194,6 +212,41 @@ p {
 
 
     body {
-        background-color: #f2f2f2;
+        background-color: black; 
       }
       
+      .about-body {
+        background-image: url(/Users/nataliaviloriabarros/Desktop/MilaPage/styles/images/smiling.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      
+
+     
+
+      .main-body {
+
+        background-image: url(/Users/nataliaviloriabarros/Desktop/MilaPage/styles/images/smiling.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+      }
+
+
+
+
+
+.contrataciones {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 9%;
+    padding-top: 9%;
+    justify-content: center; 
+    color: white;
+    text-decoration: none;
+  
+
+}
