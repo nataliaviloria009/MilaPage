@@ -1,10 +1,10 @@
 
 
 .name {
-    font-family: 'Tangerine', cursive;
+    font-family: 'Playfair Display', serif;
     text-align: center;
-    font-size: 200px;
-    color: rgb(84, 7, 84); 
+    font-size: 130px;
+    color: black; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   
 
@@ -142,19 +142,8 @@ p {
 
 }
 
-.bio-mila {
-
-    font-family: 'Playfair Display SC', serif;
-    text-align: center;
-    font-size: 130px;
-    color: goldenrod;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  
 
     
-    
-
-}
 
 
 .mila-image {
@@ -264,4 +253,8 @@ p {
     font-size: 18px;
 }
 
-  
+  .jimenez {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 16px;
+    text-decoration: none;
+  }

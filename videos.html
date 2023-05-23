@@ -5,61 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Poppins:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/portfolio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio.css">
-    <link rel="stylesheet" href="about.html">
-    <link rel="stylesheet" href="videos.html">
     <title>Videos</title>
-</head>
 
-<style>
-
-    p {
-        font-family: 'Playfair Display SC', serif;
-    text-align: center;
-    font-size: 120px;
-    color: rgb(84, 7, 84); 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  
-
-    }
-
-body {
-            
-           
-           background-image: url(/Users/nataliaviloriabarros/Desktop/MilaPage/styles/images/golly.jpeg);
-           background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-
-          
-        
-      
+    <style>
+        p {
+            font-family: 'Tangerine', cursive;
+            text-align: center;
+            font-size: 200px;
+            color: rgb(84, 7, 84); 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
-    .social {
-        padding-top: 6%;
-    }
-</style>
+        body {
+            overflow-x: hidden;
+            background-image: url(/Users/nataliaviloriabarros/Desktop/MilaPage/styles/images/golly.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            overflow-x: auto;
+            max-width: 100%;
+        }
+
+        .row {
+            flex-wrap: nowrap;
+        }
+
+        .social {
+            padding-top: 6%;
+        }
+    </style>
+</head>
+
 <body>
-
-    
-
-        
-   
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html" class="jimenez">Mila Jimenez</a>
         <div class="nav">
@@ -75,14 +62,12 @@ body {
                         <a class="nav-link" href="videos.html">Videos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
+                        <a class="nav-link" href="contact.html">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
- <p>Videos</p>
 
     <div class="container">
         <div class="row">
@@ -103,6 +88,7 @@ body {
             </div>
         </div>
     </div>
+
     <footer>
         <div class="social">
             <div class="row-icons text-center">
@@ -123,9 +109,10 @@ body {
                 </div>
             </div>
         </div>
-    
-    
     </footer>
-    
 
-    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-KR4wDqDz+wuxSrCgpR4Wpdlu2wwlNiswsFug3mVL2bXm/z2Rf6/k1szlG2sNbs1iz+Lr2uxvtO48NGBbW3mIPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-DwYUeeT9vr+iDcr4IYsL06/EaJkbzyqXn2nRVqOc+0AXpHcV5HG54TF4CRJbpN51o25dRw49vQNVK2G+8BESdQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-ukU6JqgOZt6fupzfMzI6K/R5DlW/K70y5AJWY5UzQx2U3yinXSIhFbVrXMPToV9MZPV03g7fT20SGFq7hjS9OQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
