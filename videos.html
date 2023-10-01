@@ -1,141 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Poppins:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Poppins:ital,wght@1,200;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Videos</title>
 
     <style>
+      h1 {
+        font-family: "Playfair Display SC", serif;
+        font-size: large;
+        text-align: center;
+        font-size: 140px;
+        color: black;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      p {
+        font-family: "Tangerine", cursive;
+        text-align: center;
+        font-size: 200px;
+        color: rgb(84, 7, 84);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
 
-        h1{
-            font-family: 'Playfair Display SC', serif;
-    font-size: large;
-    text-align: center;
-    font-size: 140px;
-    color: black; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  
-        }
-        p {
-            font-family: 'Tangerine', cursive;
-            text-align: center;
-            font-size: 200px;
-            color: rgb(84, 7, 84); 
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
+      body {
+        overflow-x: hidden;
+        background-image: url(/Users/nataliaviloriabarros/Desktop/MilaPage/styles/images/golly.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
 
-        body {
-            overflow-x: hidden;
-            background-image: url(/Users/nataliaviloriabarros/Desktop/MilaPage/styles/images/golly.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
+      .container {
+        overflow-x: auto;
+        max-width: 100%;
+      }
 
-        .container {
-            overflow-x: auto;
-            max-width: 100%;
-        }
+      .row {
+        flex-wrap: nowrap;
+      }
 
-        .row {
-            flex-wrap: nowrap;
+      .social {
+        padding-top: 6%;
+      }
+      @media (max-width: 576px) {
+        h1 {
+          font-size: 30px;
         }
-
-        .social {
-            padding-top: 6%;
-        }
-        @media(max-width: 576px){
-            h1{
-                font-size: 30px;
-            }
-        }
+      }
     </style>
 
-<link rel="stylesheet" href="styles/portfolio.css">
-</head>
+    <link rel="stylesheet" href="styles/portfolio.css" />
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html" class="jimenez">Mila Jimenez</a>
-        <div class="nav">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">Biografía</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="videos.html">Videos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
+      <a class="navbar-brand" href="index.html" class="jimenez">Mila Jimenez</a>
+      <div class="nav">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Biografía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="videos.html">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <h1>Videos</h1>
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 video-container">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AqQQXF4acTA" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-md-4 video-container">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Bd9pJj9BgR4" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-md-4 video-container">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tALUx0pBHmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-md-4 video-container">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/AqQQXF4acTA"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
+        <div class="col-md-4 video-container">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/Bd9pJj9BgR4"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-md-4 video-container">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/tALUx0pBHmU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer>
-        <div class="social">
-            <div class="row-icons text-center">
-                <div class="col-4">
-                    <a href="https://www.instagram.com/soymilajimenez/?hl=es" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="https://www.youtube.com/@soymilajimenez1119" target="_blank">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="https://open.spotify.com/artist/21gK2a6wJoB1ZPYdPXU9Iv?si=TcHkowPjSYOl9qFk1vkapw" target="_blank">
-                        <i class="fa-brands fa-spotify"></i>
-                    </a>
-                </div>
-            </div>
+      <div class="social">
+        <div class="row-icons text-center">
+          <div class="col-4">
+            <a
+              href="https://www.instagram.com/soymilajimenez/?hl=es"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+          <div class="col-4">
+            <a
+              href="https://www.youtube.com/@soymilajimenez1119"
+              target="_blank"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+          <div class="col-4">
+            <a
+              href="https://open.spotify.com/artist/21gK2a6wJoB1ZPYdPXU9Iv?si=TcHkowPjSYOl9qFk1vkapw"
+              target="_blank"
+            >
+              <i class="fa-brands fa-spotify"></i>
+            </a>
+          </div>
         </div>
+      </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-KR4wDqDz+wuxSrCgpR4Wpdlu2wwlNiswsFug3mVL2bXm/z2Rf6/k1szlG2sNbs1iz+Lr2uxvtO48NGBbW3mIPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-DwYUeeT9vr+iDcr4IYsL06/EaJkbzyqXn2nRVqOc+0AXpHcV5HG54TF4CRJbpN51o25dRw49vQNVK2G+8BESdQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-ukU6JqgOZt6fupzfMzI6K/R5DlW/K70y5AJWY5UzQx2U3yinXSIhFbVrXMPToV9MZPV03g7fT20SGFq7hjS9OQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-KR4wDqDz+wuxSrCgpR4Wpdlu2wwlNiswsFug3mVL2bXm/z2Rf6/k1szlG2sNbs1iz+Lr2uxvtO48NGBbW3mIPg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"
+      integrity="sha512-DwYUeeT9vr+iDcr4IYsL06/EaJkbzyqXn2nRVqOc+0AXpHcV5HG54TF4CRJbpN51o25dRw49vQNVK2G+8BESdQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+      integrity="sha512-ukU6JqgOZt6fupzfMzI6K/R5DlW/K70y5AJWY5UzQx2U3yinXSIhFbVrXMPToV9MZPV03g7fT20SGFq7hjS9OQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
 </html>
-
-
-
-
